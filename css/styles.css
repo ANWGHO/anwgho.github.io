@@ -20,7 +20,7 @@ body {
 .marquee {
     font-family: Arial, sans-serif;
     font-size: 64px;
-    font-weight: bolder;
+    font-weight: bold;
     font-style: italic;
     color: #000;
     width: 100%;
@@ -42,7 +42,7 @@ hr.divider {
 .poem-name {
     font-size: 64px;
     font-style: italic;
-    font-weight: bolder;
+    font-weight: bold;
     color: #000;
     width: 100%;
     text-align: center;
