@@ -1,0 +1,11 @@
+# "If the night is clear,
+# The moon that I see,
+# Should be like under a thin veil,
+# Look,
+# Your face and eyebrows."
+# - < From ChaoChaos >
+
+User-agent: *
+Allow: *
+Disallow: 
+crawl-delay: 3
