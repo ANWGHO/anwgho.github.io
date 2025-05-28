@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     box-sizing: border-box;
     overflow-x: hidden;
+    position: relative;
 }
 
 .marquee-link {
@@ -48,6 +49,12 @@ hr.divider {
     text-align: center;
     margin-top: 60px;
     margin-bottom: 60px;
+    user-select: text;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    position: relative;
+    z-index: 5; 
 }
 
 @keyframes marquee {
@@ -86,7 +93,7 @@ hr.divider {
 }
 
 .poem-title {
-    font-size: 125%;
+    font-size: 150%;
     font-weight: bold;
     text-align: center;
     margin-bottom: 10px;
@@ -101,7 +108,7 @@ hr.divider {
 }
 
 .poem-title-t {
-    font-size: 250%;
+    font-size: 200%;
     font-weight: bold;
     text-align: center;
     margin-top: 60px;
@@ -109,7 +116,7 @@ hr.divider {
 }
 
 .poem-content-c {
-    font-size: 125%;
+    font-size: 150%;
     font-weight: bold;
     text-align: center;
     overflow: hidden;
@@ -129,15 +136,14 @@ hr.divider {
 }
 
 #custom-image {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     position: absolute;
     cursor: grab;
-    z-index: 10px;
+    z-index: 1;
+    pointer-events: auto;
 }
 
-
-/* 响应式设计 */
 @media (max-width: 768px) {
     .container {
         grid-template-columns: repeat(1, 1fr);
@@ -168,12 +174,12 @@ hr.divider {
     }
 
     .poem-title {
-        font-size: 125%;
+        font-size: 120%;
         text-align: center;
     }
 
     .poem-content {
-        font-size: 75%;
+        font-size: 90%;
         text-align: center;
         height: auto;
         overflow: visible;
