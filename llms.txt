@@ -36,4 +36,5 @@
 
 ## 其他
 
+- [全文（24 首诗完整文本，单文件）](https://github.chaochaos.com/llms-full.txt)
 - [首页（全部 24 首）](https://github.chaochaos.com/)

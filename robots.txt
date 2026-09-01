@@ -5,8 +5,7 @@
 # Your face and eyebrows."
 # - < From ChaoChaos >
 
-# 全站开放收录，包括 AI 检索与训练爬虫。
 User-agent: *
-Allow: /
+Disallow:
 
 Sitemap: https://github.chaochaos.com/sitemap.xml
